@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/badge/License-Apache2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0) [![Community](https://img.shields.io/badge/Join-Community-blue.svg)](https://developer.ibm.com/callforcode/get-started/) [![Website](https://img.shields.io/badge/View-Website-blue)](https://developer.ibm.com/callforcode/get-started/climate-change/clean-water)
 
-Water is the natural resource that is most threatened by climate change, and more than half of the world does not have access to safe sanitation services. Use this starter kit to understand how technology can improve access to clean drinking water, reduce water waste, and protect natural resources. The starter kit provides tools and resources from our experts to help you jump-start your own solution.
+The need for clean water is not only limited to humans but also extends to all living things as a naturally occurring component for life continuity on planet Earth. Water quality monitoring is important for guiding safety management and ensuring public health. With a global estimate of 7 billion dreams, many of whom still lack access to quality drinking water, it’s important to share knowledge and information all around the world to break the vicious cycle of ignorance and water wastage. With expatriate estimates of water project costs, this shall reduce failure of building water safety capacity.
 
 ## Contents
 
