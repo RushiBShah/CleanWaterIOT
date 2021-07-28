@@ -49,13 +49,11 @@ This section provides several examples that you and your team can use to jump-st
 
 In the following examples:
 
-![Orange text indicates "who" Green text indicates "what" Red text indicates "where" or "when"](assets/legend.svg)
-
-#### Idea 4
+#### Idea 
 
 ![A community leader can find verified clean sources of water near to them in one place in near real time 
 and track/compare water sanitation results against historical trends + nearby communities to drive a ~50% reduction in water illness-related hospitalizations
-and can assess their water usage and make more informed decisions to prioritize most essential needs & decrease water waste.](assets/hill4.svg)
+and can assess their water usage and make more informed decisions to prioritize most essential needs & decrease water waste.]
 
 Essential technologies needed:
 
@@ -90,70 +88,6 @@ Essential technologies needed:
 
 You can create a solution based on the proposed solution architecture by exploring the following resources on [IBM Developer](https://developer.ibm.com/).
 
-### Resources
-
-Use the following resources to help you identify a topic and create your own solution.
-
-#### Tutorials
-
-- [Build a water quality dashboard with GeoJSON and Node-RED](https://developer.ibm.com/tutorials/build-a-water-quality-dashboard/) - Display USGS watershed maps on a Node-RED dashboard with water quality reports. Query the watershed area maps of the Ridgewood, New Jersey and Atlanta, Georgia watersheds using the USGS Hydro Network-Linked Data Index, and plot the water basins and rivers on a Node-RED dashboard.
-- [Building integrations with event-driven flows or flows for APIs](https://developer.ibm.com/tutorials/building-integrations-with-app-connect/) - Learn how to create a fully integrated application using IBM App Connect. IBM App Connect, which is a key component of the IBM Cloud Pak for Integration platform (and available for free on IBM Cloud as a SaaS offering), showcases the agility of integrating applications on the cloud.
-- [Analyzing geospatial environment data](https://developer.ibm.com/tutorials/analyzing-geospatial-environment-data/) Learn how to use [JupyterLab](https://jupyterlab.readthedocs.io/en/latest/), the [ElyraAI](https://elyra.readthedocs.io/en/latest/) Pipeline Editor and the [CLAIMED](https://arxiv.org/abs/2103.03281) component [library](https://github.com/elyra-ai/component-library) to use open climate data for computing future trends
-
-#### Platform development
-
-Identify the right environment, software, and runtime to power and scale your solution.
-
-- [Technical library](https://developer.ibm.com/callforcode/technical-library/)
-- [Watson Studio](https://www.ibm.com/cloud/watson-studio)
-- [Watson IoT](https://www.ibm.com/internet-of-things)
-- [Watson Machine Learning](https://www.ibm.com/cloud/machine-learning)
-
-#### Mapping APIs
-
-- [HERE Technologies API](https://developer.here.com)
-- [Draw GeoJSON maps](http://geojson.io)
-- [Collection of zip code boundrary files for each of the 50 US states](https://github.com/OpenDataDE/State-zip-code-GeoJSON)
-
-#### Artificial intelligence
-
-Use AI to create apps that accelerate, enhance, and scale the human experience.
-
-- [Technical library](https://developer.ibm.com/callforcode/technical-library/)
-
-#### Data science
-
-Analyze structured and unstructured data to extract knowledge and insights related to urgent issues.
-
-- [Technical library](https://developer.ibm.com/callforcode/technical-library/)
-
-#### Internet of Things
-
-Collect and analyze device sensor data to take corrective or preventative action automatically.
-
-- [Integrate Watson IoT with HERE Tracking](https://developer.ibm.com/tutorials/connect-watson-iot-here-tracking-manage-track-devices-real-time/)
-- [Build a hyper-local weather dashboard: Use The Weather Company's APIs to build a Node-RED weather dashboard](https://developer.ibm.com/tutorials/collect-display-hyperlocal-weather-data-from-a-pws-cfc-starter-kit-1/)
-- [Analyze IoT ESP8266 sensor data](https://developer.ibm.com/technologies/iot/tutorials/connect-a-soil-sensor-send-data-to-the-cloud-cfc-starter-kit-1)
-
-#### Data sets
-
-These public data sets provide information on the problem.
-
-- [USGS watershed maps](https://waterdata.usgs.gov/blog/nldi-intro/)
-- [Aquagenuity API provides water quality reports for many USA zip codes](https://aquagenuity.com/drinking-water-database/drinking-water-database)
-- [A large collection of data sets, topics include climate, weather, and agriculture](https://github.com/awesomedata/awesome-public-datasets)
-- [Data collections that include atmosphere, ocean, land, and flood data, both current and historical](https://www.nccs.nasa.gov/services/data-collections)
-- [Platform for organizing and presenting variables and indicators on water resources and their use](http://www.fao.org/aquastat/statistics/query/index.html)
-- [Met Office data feeds in a format that is suitable for application developers.](https://www.metoffice.gov.uk/services/data/datapoint)
-- [Met Office on AWS Earth](https://registry.opendata.aws/uk-met-office/)
-- [Yahoo Weather API for your apps](https://developer.yahoo.com/weather/)
-
-#### NGO documents
-
-These are the go-to documents for measuring impact and progress against the key issue.
-
-- [Sendai Framework Priority 4: Build Back Better](https://www.youtube.com/watch?v=mRTlS3ZfljM)
-- [Open data in the agricultural sector](https://www.europeandataportal.eu/en/highlights/open-data-agricultural-sector)
 
 ## Contributing
 
