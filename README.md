@@ -51,90 +51,25 @@ In the following examples:
 
 ![Orange text indicates "who" Green text indicates "what" Red text indicates "where" or "when"](assets/legend.svg)
 
-#### Idea 1
-
-![A community leader or resident can organize community events and broadcast emergency information based on geolocation data.](assets/hill1.svg)
-
-Essential technologies needed:
-
-- Verification of identity and community residency
-- Badge system that is based on the number of events held or organized
-- Measuring the impact by event (for example, attendees or sanitation goals)
-
-#### Idea 2
-
-![A community leader can coordinate and fund a construction project in less than 72 hours.](assets/hill2.svg)
-
-Essential technologies needed:
-
-- Data source of approved contractors, experts, and reviews
-- Workflow to manage requisitions
-- Adding data
-
-#### Idea 3
-
-![A community leader can find verified clean sources of water near to them in one place in near real time.](assets/hill3.svg)
-
-Essential technologies needed:
-
-- GPS location data for water sources relative to user location
-- Data source to manage GPS data
-- API to access data
-
 #### Idea 4
 
-![A community leader can track/compare water sanitation results against historical trends + nearby communities to drive a ~50% reduction in water illness-related hospitalizations.](assets/hill4.svg)
+![A community leader can find verified clean sources of water near to them in one place in near real time 
+and track/compare water sanitation results against historical trends + nearby communities to drive a ~50% reduction in water illness-related hospitalizations
+and can assess their water usage and make more informed decisions to prioritize most essential needs & decrease water waste.](assets/hill4.svg)
 
 Essential technologies needed:
 
 - Water analysis technology (IoT)
-- Track and trace
-- Publicity of results and water source to report mapping
-- Pollution source remediation and containment
-
-#### Idea 5
-
-![A teacher can run and manage a challenge program that both educates students on clean water access & inspires future change in one platform.](assets/hill5.svg)
-
-Essential technologies needed:
-
-- Gamification and badging
-- Embedded virtual whiteboard
-- Technology to test clean water
-- Repository for clean water resources and assessment
-- Connect with other communities and learn from water use experiences
-
-#### Idea 6
-
-![A resident can assess their water usage and make more informed decisions to prioritize most essential needs & decrease water waste.](assets/hill6.svg)
-
-Essential technologies needed:
-
+- GPS location data for water sources relative to user location
 - Maps of surface water, aquifers, rainfall, and watersheds relating to user location
-- Lab test results of water quality upstream and downstream
-- Water flow rate sensors to monitor household irrigation
-
-#### Idea 7
-
-![A researcher can track rainwater levels so they can derive insights and make recommendations to communities and policy makers in a fraction of the time.](assets/hill7.svg)
-
-Essential technologies needed:
-
-- Sensor data
-- Automated analytical analysis
 - Historic data on local rainfall
 - Historic comparison of color of surface water over time from satellite imagery
 - Rainfall forecast
-
-#### Idea 8
-
-![Community advocacy groups can search and read legal case studies and legislation in plain language terms.](assets/hill8.svg)
-
-Essential technologies needed:
-
-- Natural language processing
-- Text summarization
-- Document management
+- Lab test results of water quality upstream and downstream
+- Water flow rate sensors to monitor household irrigation
+- Track and trace
+- Publicity of results and water source to report mapping
+- Pollution source remediation and containment
 
 ## Video
 
