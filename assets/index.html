@@ -1,0 +1,137 @@
+<!--
+
+To run this demo, you need to replace 'YOUR_API_KEY' with an API key from the ArcGIS Developers dashboard.
+
+Sign up for a free account and get an API key.
+
+https://developers.arcgis.com/documentation/mapping-apis-and-services/get-started/
+
+ -->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <title>Mapbox GL JS Tutorials: Display a map</title>
+    <style>
+      html,
+      body,
+      #map {
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        color: #323232;
+      }
+	  
+	  #geocode-container {
+        display: inline-flex;
+        margin: 20px;
+      }
+      #geocode-input, #geocode-button {
+        font-size: 16px;
+        margin: 0 2px 0 0;
+        padding: 4px 8px;
+      }
+      #geocode-input {
+        width: 300px;
+      }
+    </style>
+
+    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js"></script>
+	  <script src="https://unpkg.com/@esri/arcgis-rest-request@3.0.0/dist/umd/request.umd.js"></script>
+    <script src="https://unpkg.com/@esri/arcgis-rest-geocoding@3.0.0/dist/umd/geocoding.umd.js"></script>
+    <script src="https://unpkg.com/@esri/arcgis-rest-auth@3.0.0/dist/umd/auth.umd.js"></script>
+    <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css" rel="stylesheet" />
+
+  </head>
+
+  <body>
+	<div> This is test. </div>
+    <div id="map"></div>
+
+    <script>
+
+      const apiKey = "AAPK052aa21197a646e3995d89bc4f66c4ebdaWhFeq28p5ygEcoWwrZvhPbDZeKhQPOQBPE_KjHrqCZx3W21-sJClFJv2olmLsm";
+      const basemapEnum = "ArcGIS:Navigation";  // Basemap layer style
+
+      const map = new mapboxgl.Map({
+        container: "map", // ID of the div element
+        style: `https://basemaps-api.arcgis.com/arcgis/rest/services/styles/${basemapEnum}?type=style&token=${apiKey}`,
+        zoom: 3,
+        center: [151.2093, -33.8688] // Starting location [longitude, latitude]
+      });
+	  
+	  class GeocodeControl {
+        onAdd(map) {
+          const template = document.createElement("template");
+          template.innerHTML = `
+            <div id="geocode-container">
+              <input id="geocode-input" class="mapboxgl-ctrl" type="text" placeholder="Enter an address or place e.g. 1 York St" size="50" />
+              <button id="geocode-button" class="mapboxgl-ctrl">Geocode</button>
+            </div>
+          `;
+
+          return template.content;
+        }
+      }
+		const geocodeControl = new GeocodeControl();
+    map.addControl(geocodeControl, 'top-left');
+		
+		document.getElementById("geocode-button").addEventListener("click", () => {
+			const query = document.getElementById("geocode-input").value;
+        const authentication = new arcgisRest.ApiKey({
+          key: apiKey
+        });
+
+        arcgisRest
+          .geocode({
+            singleLine: query,
+            authentication,
+            params: {
+              location: map.getCenter().toArray().join(","), // center of map as longitude,latitude
+              outFields: "*" // return all fields
+            }
+          })
+          .then((response) => {
+
+            const result = response.candidates[0];
+            if (!result) {
+              alert("That query didn't match any geocoding results.");
+              return;
+            }
+            const lngLat = [result.location.x, result.location.y];
+
+            new mapboxgl.Popup()
+              .setLngLat(lngLat)
+              .setHTML(result.attributes.LongLabel)
+              .addTo(map);
+            
+            map.panTo(lngLat);
+          })
+          .catch((error) => {
+            alert("There was a problem using the geocoder. See the console for details.");
+            console.error(error);
+          });
+      });
+      
+   
+  window.watsonAssistantChatOptions = {
+      integrationID: "da0c0594-8ea3-4741-b898-7faec0bb9dfa", // The ID of this integration.
+      region: "us-south", // The region your integration is hosted in.
+      serviceInstanceID: "7c87d821-b26b-4d64-b2ec-9e6d786944a1", // The ID of your service instance.
+      onLoad: function(instance) { instance.render(); }
+    };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+    document.head.appendChild(t);
+  });
+
+    </script>
+    
+
+  </body>
+
+</html>
