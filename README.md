@@ -10,7 +10,7 @@ The need for clean water is not only limited to humans but also extends to all l
 1. [Video](#video)
 1. [The architecture](#the-architecture)
 1. [Getting started](#getting-started)
-1. [Aquastat data analysis] (#Aquastat-data-analysis)
+1. [Aquastat data analysis](#aquastat-data-analysis)
 1. [Contributing](#contributing)
 1. [Acknowledgments](#acknowledgments) 
 
@@ -90,7 +90,7 @@ Essential technologies needed:
 You can create a solution based on the proposed solution architecture by exploring the following resources on [IBM Developer](https://developer.ibm.com/).
 
 ## Aquastat data analysis
-Please read about [[Aquastat data analysis]](AQUASTAT-DATA-ANALYSIS.md) to this repository for details.
+Please read about [Aquastat data analysis](AQUASTAT-DATA-ANALYSIS.md) to this repository for details.
 
 
 
