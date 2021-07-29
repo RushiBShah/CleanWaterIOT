@@ -90,8 +90,10 @@ Essential technologies needed:
 You can create a solution based on the proposed solution architecture by exploring the following resources on [IBM Developer](https://developer.ibm.com/).
 
 ## Aquastat data analysis
-Stacked column pivot chart for the data provided by the aquastat (aquastat water data.xlsx) is as below. 
+Stacked column pivot chart for the data provided by the aquastat [aquastat water data](aquastat water data.xlsx) is as below. 
+
 ![Aquastat pivot chart 1](assets/Aquastat1.png)
+
 ![Aquastat pivot chart 2](assets/Aquastat2.png)
 
 ## Contributing
