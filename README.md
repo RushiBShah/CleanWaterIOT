@@ -1,4 +1,4 @@
-# Call for Code solution starter kit: Clean water and sanitation
+# Call for Code solution starter kit: Clean Water and Sanitation
 
 [![License](https://img.shields.io/badge/License-Apache2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0) [![Community](https://img.shields.io/badge/Join-Community-blue.svg)](https://developer.ibm.com/callforcode/get-started/) [![Website](https://img.shields.io/badge/View-Website-blue)](https://developer.ibm.com/callforcode/get-started/climate-change/clean-water)
 
@@ -18,6 +18,9 @@ The need for clean water is not only limited to humans but also extends to all l
 
 This starter kit can help you begin your Call for Code solution. The starter kit pulls together resources to help you and your team use technology to create applications to tackle clean water and sanitation issues around the world.
 
+URL to app:
+https://arcgis-based-watermaps.eu-gb.mybluemix.net/
+
 ### What's the problem?
 
 According to the [World Health Organization](https://www.who.int/news/item/18-06-2019-1-in-3-people-globally-do-not-have-access-to-safe-drinking-water-unicef-who), 2.2 billion people around the world do not have safely managed drinking water services, 4.2 billion people do not have safely managed sanitation services, and 3 billion people lack basic handwashing facilities. These services are critical in preventing the spread of COVID-19 and other diseases. Even in areas that have these services, there are vast inequalities in the accessibility, availability, and quality of the services. 
@@ -25,10 +28,6 @@ According to the [World Health Organization](https://www.who.int/news/item/18-06
 UNICEF is urgently appealing for funding and support to reach more children with basic water, sanitation, and hygiene facilities, especially those children who are cut off from safe water because they live in remote areas, in places where water is untreated or polluted, or because they are without a home, living in a slum or on the street.
 
 ### How can technology help?
-
-From intelligent solutions for small farmers to recycling showers, technology can make a significant impact on the availability of water and its consumption. IBM provides various technologies such as IoT, Watson, and blockchain. [IBM Water Management as a Service platform](https://www.ibm.com/thought-leadership/water/) can monitor water resources in real time. Through this cloud-based platform, IBM is helping to improve the management of water resources.
-
-Additional ways Water Management as a Service can help:
 
 - Creating a database and [interactive map](https://wmaasp.mybluemix.net/sensor-overview) to help locate and maintain the water points across the counties
 - Collecting water usage, breakage, and repair data from boreholes that are monitored by SweetSense
@@ -45,17 +44,11 @@ To encourage optimal water choices by consumers and local governments and to inc
 - Access plain language case studies and legislation
 - Implement IoT water quality monitoring infrastructure for existing water access points. 
 
-### Solution ideas
-
-This section provides several examples that you and your team can use to jump-start your solution ideas. The following ideas are examples only, so feel free to brainstorm with your team to create your own original ideas and solutions. For example, the 2020 Call for Code Grand Prize winner, [Agrolly](https://developer.ibm.com/blogs/agrolly/) created a solution that uses IBM Cloud Object Storage, IBM Watson Studio, IBM Watson Assistant, and The Weather Company technologies to execute climate risk assessments, which allows farmers with less resources available to them to still make more educated decisions, obtain the necessary financing, and improve their economic outcome.
-
-In the following examples:
-
 #### Idea 
 
-![A community leader can find verified clean sources of water near to them in one place in near real time 
-and track/compare water sanitation results against historical trends + nearby communities to drive a ~50% reduction in water illness-related hospitalizations
-and can assess their water usage and make more informed decisions to prioritize most essential needs & decrease water waste. With IoT integration, water quality monitoring information is also gathered which is analysed over the changing climatic conditions around the year using Watrson AI tools to help in decisions too]
+A community leader can find verified clean sources of water near to them in one place in near real time 
+and track/compare water sanitation results against historical trends and nearby communities to drive a ~50% reduction in water illness-related hospitalizations
+and can assess their water usage and make more informed decisions to prioritize most essential needs & decrease water waste. With IoT integration, water quality monitoring information is also gathered which is analysed over the changing climatic conditions around the year using Watrson AI tools to help in decisions too.
 
 Essential technologies needed:
 
