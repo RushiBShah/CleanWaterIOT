@@ -43,6 +43,7 @@ To encourage optimal water choices by consumers and local governments and to inc
 - Explore educational tools to support water sustainability and clean water access
 - Enable transparent water usage, cleanliness results, and site-to-site comparison
 - Access plain language case studies and legislation
+- Implement IoT water quality monitoring infrastructure for existing water access points. 
 
 ### Solution ideas
 
@@ -54,7 +55,7 @@ In the following examples:
 
 ![A community leader can find verified clean sources of water near to them in one place in near real time 
 and track/compare water sanitation results against historical trends + nearby communities to drive a ~50% reduction in water illness-related hospitalizations
-and can assess their water usage and make more informed decisions to prioritize most essential needs & decrease water waste.]
+and can assess their water usage and make more informed decisions to prioritize most essential needs & decrease water waste. With IoT integration, water quality monitoring information is also gathered which is analysed over the changing climatic conditions around the year using Watrson AI tools to help in decisions too]
 
 Essential technologies needed:
 
