@@ -27,28 +27,19 @@ According to the [World Health Organization](https://www.who.int/news/item/18-06
 
 UNICEF is urgently appealing for funding and support to reach more children with basic water, sanitation, and hygiene facilities, especially those children who are cut off from safe water because they live in remote areas, in places where water is untreated or polluted, or because they are without a home, living in a slum or on the street.
 
-### How can technology help?
+Link to ArcGIC Web App Builder Application:
+https://ru2mdlzvzu4sknf3.maps.arcgis.com/apps/webapapviewer/index.html?id=22332ef7258e48a188e7486471c4ab9d#
 
-- Creating a database and [interactive map](https://wmaasp.mybluemix.net/sensor-overview) to help locate and maintain the water points across the counties
-- Collecting water usage, breakage, and repair data from boreholes that are monitored by SweetSense
-- Delivering tickets to repair and maintenance teams who can respond to failures and repair the boreholes
+Link to IBM Cloud hosted app:
+https://arcgis-based-watermaps.eu-gb.mybluemix.net/#
 
 ### The idea
 
-To encourage optimal water choices by consumers and local governments and to incentivize water sustainability, we propose devising and implementing an API for water data collection and dissemination. With an API, you could have a centralized way to:
-
-- Query geolocations of sustainable water sources
-- Simplify coordination and funding for water construction projects
-- Explore educational tools to support water sustainability and clean water access
-- Enable transparent water usage, cleanliness results, and site-to-site comparison
-- Access plain language case studies and legislation
-- Implement IoT water quality monitoring infrastructure for existing water access points. 
-
-#### Idea 
+To encourage optimal water choices by consumers and local governments and to incentivize water sustainability, we propose devising and implementing an API for water data collection and dissemination. 
 
 A community leader can find verified clean sources of water near to them in one place in near real time 
 and track/compare water sanitation results against historical trends and nearby communities to drive a ~50% reduction in water illness-related hospitalizations
-and can assess their water usage and make more informed decisions to prioritize most essential needs & decrease water waste. With IoT integration, water quality monitoring information is also gathered which is analysed over the changing climatic conditions around the year using Watrson AI tools to help in decisions too.
+and can assess their water usage and make more informed decisions to prioritize most essential needs & decrease water waste. With IoT integration, water quality monitoring information is also gathered which is analysed over the changing climatic conditions around the year using Watson AI tools to help in decisions too.
 
 Essential technologies needed:
 
@@ -96,20 +87,9 @@ Please read about [contributing](CONTRIBUTING.md) to this repository for details
 
 ## Contributors
 
-- [Dr. David O’Hara](https://www.linkedin.com/in/david-o-hara/), Chair and Professor of Philosophy and Environmental Studies, and Director of Sustainability and Environmental Studies, Augustana University
-- [Dr. Mark L. Meiklejohn](https://www.linkedin.com/in/markmeiklejohn/), Senior Software Engineer, JP Morgan (Suisse)
-- [Karla Readshaw](https://www.linkedin.com/in/karlareadshaw/), Program Manager, Education at Intuit  
-- [Romeo Kienzler](https://developer.ibm.com/profiles/romeo.kienzler/), IBM Developer Advocate, Data science 
-- [Muralidhar Chavan](https://developer.ibm.com/profiles/muralidhar.chavan/), IBM Developer Advocate, Artificial Intelligence 
-- [Mateo Bozzini](https://developer.ibm.com/profiles/mbozzini/), IBM Developer Advocate, Platform Development
-- [John Walicki](https://developer.ibm.com/profiles/walicki/), IBM Developer Advocate, IoT and Edge
-- [Niraj Swami](https://www.linkedin.com/in/nirajswami/), Conservation Technology Strategy & Enablement, The Nature Conservancy
-- [Christoph Gorder](https://www.linkedin.com/in/christoph-gorder-0745a2/), Chief Global Water Officer, charity: water
-
-
-<a href="https://github.com/Call-for-Code/Solution-Starter-Kit-Water-2021/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=Call-for-Code/Solution-Starter-Kit-Water-2021" />
-</a>
+Aaron Masuba
+Tejaswini J.
+Rushi Shah
 
 ## License
 
