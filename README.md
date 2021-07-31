@@ -18,20 +18,17 @@ The need for clean water is not only limited to humans but also extends to all l
 
 This starter kit can help you begin your Call for Code solution. The starter kit pulls together resources to help you and your team use technology to create applications to tackle clean water and sanitation issues around the world.
 
-URL to app:
-https://arcgis-based-watermaps.eu-gb.mybluemix.net/
-
 ### What's the problem?
 
 According to the [World Health Organization](https://www.who.int/news/item/18-06-2019-1-in-3-people-globally-do-not-have-access-to-safe-drinking-water-unicef-who), 2.2 billion people around the world do not have safely managed drinking water services, 4.2 billion people do not have safely managed sanitation services, and 3 billion people lack basic handwashing facilities. These services are critical in preventing the spread of COVID-19 and other diseases. Even in areas that have these services, there are vast inequalities in the accessibility, availability, and quality of the services. 
 
 UNICEF is urgently appealing for funding and support to reach more children with basic water, sanitation, and hygiene facilities, especially those children who are cut off from safe water because they live in remote areas, in places where water is untreated or polluted, or because they are without a home, living in a slum or on the street.
 
-Link to ArcGIC Web App Builder Application:
+### Link to ArcGIC Web App Builder Application:
 https://ru2mdlzvzu4sknf3.maps.arcgis.com/apps/webapapviewer/index.html?id=22332ef7258e48a188e7486471c4ab9d#
 
-Link to IBM Cloud hosted app:
-https://arcgis-based-watermaps.eu-gb.mybluemix.net/#
+### Link to IBM Cloud hosted app:
+https://arcgis-based-watermaps.eu-gb.mybluemix.net
 
 ### The idea
 
@@ -57,7 +54,7 @@ Essential technologies needed:
 
 ## Video
 
-[![Watch the video](https://img.youtube.com/vi/e6gdcsNZN-Q/0.jpg)](https://www.youtube.com/watch?v=M10ae5cyid4)
+[![Watch the video](https://i.ytimg.com/vi/M10ae5cyid4/hqdefault.jpg)](https://www.youtube.com/watch?v=M10ae5cyid4)
 
 ## The architecture
 
@@ -86,10 +83,12 @@ Stacked column pivot chart for the data provided by the aquastat is as below.
 Please read about [contributing](CONTRIBUTING.md) to this repository for details on our code of conduct and the process for submitting pull requests.
 
 ## Contributors
-
-Aaron Masuba
-Tejaswini J.
+Masuba Aaron 
+(https://www.linkedin.com/in/aaron-mas...)
 Rushi Shah
+(https://www.linkedin.com/in/rushi-sha...)
+K. B. Tejaswini 
+(https://www.linkedin.com/in/tejaswini...)
 
 ## License
 
