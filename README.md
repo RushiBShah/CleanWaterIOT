@@ -88,7 +88,7 @@ Masuba Aaron
 Rushi Shah
 (https://www.linkedin.com/in/rushi-sha...)
 K. B. Tejaswini 
-(https://www.linkedin.com/in/tejaswini...)
+(https://www.linkedin.com/in/tejaswini-k-b-1382361aa/)
 
 ## License
 
