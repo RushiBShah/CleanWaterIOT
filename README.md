@@ -48,8 +48,7 @@ This will be based on IBM Watson Chatbot API which can answer basic queries rela
 
 ## The architecture
 
-![Starter kit architecture diagram](assets/CFC-CleanWater-Architecture.png)
-
+![Screenshot from 2022-10-06 03-37-42](https://user-images.githubusercontent.com/82576692/194169589-88a9cb41-c7a6-45c8-ba40-9454bd7754ec.png)
 
 ## Aquastat data analysis
 Stacked column pivot chart for the data provided by the aquastat is as below. 
