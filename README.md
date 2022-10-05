@@ -7,17 +7,15 @@ The need for clean water is not only limited to humans but also extends to all l
 ## Contents
 
 1. [Short description](#short-description)
-1. [Video](#video)
-1. [The architecture](#the-architecture)
-1. [Getting started](#getting-started)
-1. [Aquastat data analysis](#aquastat-data-analysis)
-1. [Contributing](#contributing)
-1. [Acknowledgments](#acknowledgments) 
+2. [The Problem].(#Problem-statement)
+3. [The architecture](#the-architecture)
+4. [Aquastat data analysis](#aquastat-data-analysis)
+6. [Contributors](#contributors) 
 
 ## Short description
 CWIoT is an IoT and AI enabled remote water resources monitoring application using geospatial mapping, water quality data and chat-bot recommender.
 
-### What's the problem?
+### The problem
 
 According to the [World Health Organization](https://www.who.int/news/item/18-06-2019-1-in-3-people-globally-do-not-have-access-to-safe-drinking-water-unicef-who), 2.2 billion people around the world do not have safely managed drinking water services, 4.2 billion people do not have safely managed sanitation services, and 3 billion people lack basic handwashing facilities. These services are critical in preventing the spread of COVID-19 and other diseases. Even in areas that have these services, there are vast inequalities in the accessibility, availability, and quality of the services. 
 
@@ -44,7 +42,7 @@ iii) ChatBot
 
 This will be based on IBM Watson Chatbot API which can answer basic queries related with water usage conservation, low cost filtration options and cost estimation for water construction projects. Future integration will be speech to text and local language support 
 
-### The idea
+### The video
 
 [![Watch the video](https://i.ytimg.com/vi/M10ae5cyid4/hqdefault.jpg)](https://www.youtube.com/watch?v=M10ae5cyid4)
 
@@ -59,10 +57,6 @@ Stacked column pivot chart for the data provided by the aquastat is as below.
 ![Aquastat pivot chart 1](assets/Aquastat1.png)
 
 ![Aquastat pivot chart 2](assets/Aquastat2.png)
-
-## Contributing
-
-Please read about [contributing](CONTRIBUTING.md) to this repository for details on our code of conduct and the process for submitting pull requests.
 
 ## Contributors
 Masuba Aaron 
