@@ -42,36 +42,9 @@ Ref: Living Atlas of the World | ArcGIS
 
 iii) ChatBot
 
-This will be based on IBM Watson Chatbot API which can answer basic queries related with water usage conservation, low cost filtration options and cost estimation for water construction projects. Future integration will be speech to text and local language support .#
-## Link to ArcGIC Web App Builder Application:
-https://ru2mdlzvzu4sknf3.maps.arcgis.com/apps/webapapviewer/index.html?id=22332ef7258e48a188e7486471c4ab9d#
-
-### Link to IBM Cloud hosted app:
-https://arcgis-based-watermaps.eu-gb.mybluemix.net
+This will be based on IBM Watson Chatbot API which can answer basic queries related with water usage conservation, low cost filtration options and cost estimation for water construction projects. Future integration will be speech to text and local language support 
 
 ### The idea
-
-To encourage optimal water choices by consumers and local governments and to incentivize water sustainability, we propose devising and implementing an API for water data collection and dissemination. 
-
-A community leader can find verified clean sources of water near to them in one place in near real time 
-and track/compare water sanitation results against historical trends and nearby communities to drive a ~50% reduction in water illness-related hospitalizations
-and can assess their water usage and make more informed decisions to prioritize most essential needs & decrease water waste. With IoT integration, water quality monitoring information is also gathered which is analysed over the changing climatic conditions around the year using Watson AI tools to help in decisions too.
-
-Essential technologies needed:
-
-- Water analysis technology (IoT)
-- GPS location data for water sources relative to user location
-- Maps of surface water, aquifers, rainfall, and watersheds relating to user location
-- Historic data on local rainfall
-- Historic comparison of color of surface water over time from satellite imagery
-- Rainfall forecast
-- Lab test results of water quality upstream and downstream
-- Water flow rate sensors to monitor household irrigation
-- Track and trace
-- Publicity of results and water source to report mapping
-- Pollution source remediation and containment
-
-## Video
 
 [![Watch the video](https://i.ytimg.com/vi/M10ae5cyid4/hqdefault.jpg)](https://www.youtube.com/watch?v=M10ae5cyid4)
 
@@ -79,16 +52,6 @@ Essential technologies needed:
 
 ![Starter kit architecture diagram](assets/CFC-CleanWater-Architecture.png)
 
-1. The user or community leader accesses a Clean Water Insights Dashboard.
-1. The insights dashboard requests the Clean Water API for data that the user wants (including queries made on a chatbot).
-1. The user can converse with a chatbot to get necessary information, and the insights dashboard can act as an orchestration application for the chatbot.
-1. The Clean Water API component retrieves the required data from various sources and aggregates them as necessary.
-1. A machine learning module uses the data sources as a corpus to build a recommendation model and hosts that model.
-1. The Clean Water Water Insights Dashboard can get recommendation and prediction information from a recommendation engine.
-
-## Getting started
-
-You can create a solution based on the proposed solution architecture by exploring the following resources on [IBM Developer](https://developer.ibm.com/).
 
 ## Aquastat data analysis
 Stacked column pivot chart for the data provided by the aquastat is as below. 
