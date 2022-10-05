@@ -57,6 +57,9 @@ Stacked column pivot chart for the data provided by the aquastat is as below.
 
 ![Aquastat pivot chart 2](assets/Aquastat2.png)
 
+## Roadmap
+![CWIoT ROADMAP](https://user-images.githubusercontent.com/82576692/194173579-a731f48c-cacb-41f3-bdf5-7b85934a6eda.jpg)
+
 ## Contributors
 Masuba Aaron 
 (https://www.linkedin.com/in/aaron-mas...)
